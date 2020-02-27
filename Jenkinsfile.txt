@@ -17,54 +17,6 @@ stage('angled') {
         }
 
 
-// Run Application for angled
-stage('blur') {
-            steps {
-                sh 'python3 test_script_v1.6.py blur'
-            }
-        }
-
-
-     // Run Application for angled
-stage('dark') {
-            steps {
-                sh 'python3 test_script_v1.6.py dark'
-            }
-        }
-
-
-        // Run Application for angled
-stage('light-with-flash') {
-            steps {
-                sh 'python3 test_script_v1.6.py light-with-flash'
-            }
-        }
-		
-
-
-		// Run Application for angled
-stage('shadow') {
-            steps {
-                sh 'python3 test_script_v1.6.py shadow'
-            }
-        }
-
-
-// Run Application for angled
-stage('single_source') {
-            steps {
-                sh 'python3 test_script_v1.6.py single_source'
-            }
-        }
-
-
-        // Run Application for angled
-stage('up_side') {
-            steps {
-                sh 'python3 test_script_v1.6.py up_side'
-            }
-        }
-
     }
 }
 

@@ -6,17 +6,11 @@ pipeline {
 stage('main_image') {
             steps {
                 sh 'python3 test_script_v1.6.py 80_main_image'
-            }
-        }
+					}
+				}
 
-<<<<<<< HEAD
-   
-
-
-=======
->>>>>>> a98654f796cb5f6be3a42a55a9a659a986ab01ea
-    }
-}
+			}
+		}
 
 
 

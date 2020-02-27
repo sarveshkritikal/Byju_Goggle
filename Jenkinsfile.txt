@@ -9,14 +9,6 @@ stage('main_image') {
             }
         }
 
-        // Run Application for angled
-stage('angled') {
-            steps {
-                sh 'python test_script_v1.6.py angle'
-            }
-        }
-
-
     }
 }
 

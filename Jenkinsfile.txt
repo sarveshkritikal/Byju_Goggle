@@ -5,18 +5,26 @@ pipeline {
 	// Run Application for main image
 stage('main_image') {
             steps {
+<<<<<<< HEAD
                 //sh 'python3 test_script_v1.6.py 80_main_image'
 		echo 'sarvesh '
 
+=======
+                sh 'python test_script_v1.6.py 80_main_image'
+>>>>>>> ef3eb69e3b1356f4ac38e957418eb5935c77e488
             }
         }
 
         // Run Application for angled
 stage('angled') {
             steps {
+<<<<<<< HEAD
 
                // sh 'python3 test_script_v1.6.py angle'
 		sh 'php --version'
+=======
+                sh 'python test_script_v1.6.py angle'
+>>>>>>> ef3eb69e3b1356f4ac38e957418eb5935c77e488
 
 
             }

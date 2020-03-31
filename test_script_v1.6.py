@@ -28,7 +28,7 @@ def test_api(name):
 	print("*********************************************************************")
 
 
-	print("result obtained: ", res.content)
+	#print("result obtained: ", res.content)
 	return (res)
 
 folder_path=sys.argv[1]
@@ -54,7 +54,7 @@ for image in list_images:
 		if enable_pageid:
 			pageId = text['page_id']
 		print (txt)
-		print ('page_id - ', pageId)
+		#print ('page_id - ', pageId)
 		print ('\n\n')
 		name,_= os.path.splitext(image)
 		name+=".txt"
